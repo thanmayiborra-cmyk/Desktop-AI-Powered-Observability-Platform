@@ -72,15 +72,3 @@ else:
     print("Recommendation : No major issues detected.")
 
 print("\nAI Incident Resolution Assistant Completed")
-print("\n========== AI RECOMMENDATIONS ==========")
-
-if critical_count > 0:
-    print("Recommendation : Immediate investigation required.")
-    print("Recommendation : Scale resources and review application logs.")
-elif incident_count > 0:
-    print("Recommendation : Monitor system closely.")
-    print("Recommendation : Review performance metrics.")
-else:
-    print("Recommendation : No major issues detected.")
-
-print("\nAI Incident Resolution Assistant Completed")
